@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Boss Studios – Private Investor Briefing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #e5e7eb;
+      color: #111827;
+    }
+    .bg-white-rounded {
+      background: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.15);
+      padding: 3rem 3.5rem 4rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      position: relative;
+    }
+    .badge-custom {
+      background-color: #fee2e2;
+      color: #b91c1c;
+      font-size: 12.1px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border-radius: 50rem;
+      margin-bottom: 0.4rem;
+      padding: 4.4px 11px;
+    }
+    .hero-image-caption {
+      position: absolute;
+      left: 12px;
+      bottom: 10px;
+      padding: 4.4px 8.8px;
+      border-radius: 999px;
+      background: rgba(17, 24, 39, 0.85);
+      color: #f9fafb;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 3.3px 8.8px;
+      font-size: 14.3px;
+      background: #f3f4f6;
+      color: #374151;
+      border: 1px solid #e5e7eb;
+      margin-bottom: 0.5rem;
+    }
+    .chip-dot {
+      width: 6.6px;
+      height: 6.6px;
+      border-radius: 999px;
+      margin-right: 6.6px;
+      background: #22c55e;
+      display: inline-block;
+    }
+    .chip-alt .chip-dot {
+      background: #3b82f6;
+    }
+    .muted { color: #6b7280 !important; }
+    .highlight-box {
+      border-radius: 0.5rem;
+      border: 1px solid #e5e7eb;
+      background: #fefce8;
+      padding: 1rem 1.2rem;
+      font-size: 16.5px;
+      margin-top: 0.8rem;
+      margin-bottom: 1.2rem;
+      color: #78350f;
+    }
+    .section-title {
+      font-size: 19.8px;
+      margin-top: 2rem;
+      margin-bottom: .5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #6b7280;
+    }
+    .section-heading {
+      font-size: 22px;
+      margin-bottom: .5rem;
+      font-weight: 700;
+      color: #111827;
+    }
+    .section-subtitle {
+      font-size: 16.5px;
+      color: #6b7280;
+      margin-bottom: 0.8rem;
+      font-style: italic;
+    }
+    .term-block {
+      border-radius: 0.5rem;
+      border: 1px solid #e5e7eb;
+      background: #f9fafb;
+      padding: 0.8rem 1rem;
+      font-size: 13.2px;
+      margin-bottom: 1rem;
+    }
+    .term-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .term-label { font-weight: 700; color: #4b5563; }
+    .term-value { color: #111827; text-align: right; }
+    .visual-title {
+      font-size: 14.3px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #4b5563;
+      margin-bottom: 2.2px;
+    }
+    .visual-caption { font-size: 15.4px; color: #6b7280; }
+    .doc-footer {
+      font-size: 11px;
+      color: #9ca3af;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px dashed #e5e7eb;
+    }
+    @media (max-width: 991.98px) {
+      .bg-white-rounded { padding: 2rem 1.5rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-start bg-light py-5">
+    <div class="bg-white-rounded w-100">
+      <!-- Document header -->
+      <header class="d-flex justify-content-between gap-4 border-bottom pb-4 mb-4 flex-wrap">
+        <div class="flex-grow-1">
+          <div class="badge-custom">Private Investor Briefing</div>
+          <h1 class="fw-bold text-uppercase mb-1" style="font-size:2rem; letter-spacing:0.15em;">Boss Studios</h1>
+          <p class="lead text-secondary text-uppercase mb-0" style="font-size:1.1rem; letter-spacing:0.18em;">Integrated Creative &amp; Personal Branding Infrastructure</p>
+        </div>
+        <div class="flex-grow-1" style="border-left:1px solid #e5e7eb; padding-left:1rem;">
+          <p class="mb-2"><strong>Location</strong><br/>Port Harcourt, Rivers State</p>
+          <p class="mb-2"><strong>Founder</strong><br/>Chukwudi Wisdom</p>
+          <p class="mb-2"><strong>Studio Name</strong><br/>Boss Studios</p>
+          <p class="small-label text-uppercase text-muted">Confidential – For invited investors only</p>
+        </div>
+      </header>
+
+      <!-- Hero visuals: concept image + short video -->
+      <section class="row gx-4 mb-5 align-items-center">
+        <div class="col-md-7 position-relative">
+          <a href="media/podcast_pic2.jpg" target="_blank">
+            <img class="w-100 rounded-3" style="object-fit:cover;height:210px;" src="media/podcast_pic2.jpg" alt="Boss Studios concept visual"/>
+          </a>
+          
+          <a href="media/podcast_pic1.jpg" target="_blank">
+            <img src="media/podcast_pic1.jpg" alt="Boss Studios walkthrough preview" class="w-100"/>
+          </a>
+          
+          <span class="hero-image-caption">Concept studio render – visual reference</span>
+          
+        </div>
+        <div class="col-md-5">
+          <div class="bg-dark rounded-3 p-3 mb-2">
+            <div class="hero-video-label text-uppercase text-white-50 mb-2" style="font-size:0.95rem;">Studio walkthrough – concept reel</div>
+            <video controls poster="media/podcast_pic3.jpg" class="w-100 rounded mb-2" style="background:#000;" muted>
+              <source src="media/podcast_vid1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 1. Executive Overview -->
+      <section>
+        <div class="section-title">01 · Executive Overview</div>
+        <h2 class="section-heading">A vertically integrated content infrastructure hub</h2>
+        <p>
+          Boss Studios is a vertically integrated creative infrastructure company designed to serve the rapidly growing demand
+          for professional content production and personal branding services in Port Harcourt, Rivers State.
+        </p>
+        <p>
+          The studio consolidates three complementary, revenue-generating divisions under a single, coordinated operational structure:
+        </p>
+        <ul>
+          <li>Grooming &amp; Image Preparation Suite</li>
+          <li>Professional Photography &amp; Visual Studio</li>
+          <li>Podcast &amp; Audio-Visual Production Lab</li>
+        </ul>
+        <p>
+          The objective is to eliminate fragmentation in content creation by offering a seamless, premium environment where
+          professionals can prepare, capture and record brand content in one location – from grooming, to still visuals, to long-form video.
+        </p>
+        <p>
+          Boss Studios seeks <strong>₦35,000,000</strong> in investment within a total capital requirement of
+          <strong>₦65,000,000</strong>. This document focuses on concept clarity, execution strategy and scalability.
+          Detailed valuation discussions can be conducted in person.
+        </p>
+      </section>
+
+      <!-- 2. Market Opportunity -->
+      <section>
+        <div class="section-title">02 · Market Opportunity – Port Harcourt</div>
+        <h2 class="section-heading">Under-served demand in a strategic city</h2>
+        <p>Port Harcourt is a strategic commercial and political hub with strong concentrations of:</p>
+        <div class="chips mb-2">
+          <span class="chip"><span class="chip-dot"></span>Entrepreneurs</span>
+          <span class="chip chip-alt"><span class="chip-dot"></span>Oil &amp; gas executives</span>
+          <span class="chip"><span class="chip-dot"></span>Political stakeholders</span>
+          <span class="chip chip-alt"><span class="chip-dot"></span>Corporate managers</span>
+          <span class="chip"><span class="chip-dot"></span>Digital entrepreneurs</span>
+          <span class="chip chip-alt"><span class="chip-dot"></span>Influencers &amp; media personalities</span>
+        </div>
+        <p>
+          Despite this concentration of high-value professionals, there is currently no fully integrated facility offering:
+        </p>
+        <ul>
+          <li>Professional grooming and image preparation</li>
+          <li>High-end photography and visual production</li>
+          <li>Dedicated podcast and audio-visual recording infrastructure</li>
+        </ul>
+        <p>
+          Content creation services in the region remain fragmented, with clients often coordinating:
+        </p>
+        <ul>
+          <li>Separate barbershops / makeup artists</li>
+          <li>Standalone photographers in rented spaces</li>
+          <li>Informal or improvised podcast / video setups</li>
+        </ul>
+        <p>
+          Boss Studios addresses this inefficiency by consolidating these services into a unified, premium creative ecosystem
+          built specifically for authority positioning and brand storytelling.
+        </p>
+      </section>
+
+      <!-- 3. Operational Structure -->
+      <section>
+        <div class="section-title">03 · Operational Structure</div>
+        <!-- 3.1 Grooming -->
+        <h3 class="section-heading">3.1 Grooming &amp; Image Suite</h3>
+        <p class="section-subtitle">Purpose: Client preparation and brand presentation.</p>
+        <div class="row mb-3">
+          <div class="col-md-6 mb-2">
+            <p><strong>Core services include:</strong></p>
+            <ul>
+              <li>Precision haircuts tailored to professional image</li>
+              <li>Beard sculpting and maintenance</li>
+              <li>Professional makeup for on-camera readiness</li>
+              <li>Styling consultation for wardrobe and overall brand tone</li>
+            </ul>
+          </div>
+          <div class="col-md-6 mb-2">
+            <p><strong>Strategic value:</strong></p>
+            <ul>
+              <li>Enhances on-camera appearance and perceived authority</li>
+              <li>Increases average order value through grooming add-ons</li>
+              <li>Improves overall client satisfaction and repeat visits</li>
+              <li>Encourages bundled bookings (grooming + photo + podcast)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 3.2 Photography -->
+        <h3 class="section-heading">3.2 Photography &amp; Visual Studio</h3>
+        <p class="section-subtitle">Built for corporate, political and digital brand storytelling.</p>
+        <div class="row mb-3">
+          <div class="col-md-6 mb-2">
+            <p><strong>Infrastructure:</strong></p>
+            <ul>
+              <li>Cyclorama wall for clean, modern visuals</li>
+              <li>Professional strobe lighting systems</li>
+              <li>Softboxes and light modifiers</li>
+              <li>Adjustable backdrop systems</li>
+              <li>Dedicated corporate headshot station</li>
+              <li>Product photography and campaign area</li>
+            </ul>
+          </div>
+          <div class="col-md-6 mb-2">
+            <p><strong>Services:</strong></p>
+            <ul>
+              <li>Corporate branding portraits and executive headshots</li>
+              <li>Campaign visuals for political and corporate initiatives</li>
+              <li>Editorial and lifestyle brand shoots</li>
+              <li>Social media content batching sessions</li>
+              <li>Political campaign imagery and media kits</li>
+            </ul>
+            <p><strong>Revenue structure:</strong></p>
+            <ul>
+              <li>Hourly studio bookings</li>
+              <li>Half-day and full-day production packages</li>
+              <li>Bundled service offerings with grooming and podcast</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 3.3 Podcast -->
+        <h3 class="section-heading">3.3 Podcast &amp; Audio-Visual Production Lab</h3>
+        <p class="section-subtitle">Engineered for long-form authority-building content.</p>
+        <div class="row mb-3">
+          <div class="col-md-6 mb-2">
+            <p><strong>Infrastructure:</strong></p>
+            <ul>
+              <li>Acoustic soundproofing and controlled audio environment</li>
+              <li>Multi-camera 4K recording setup</li>
+              <li>Professional condenser microphones and mic arms</li>
+              <li>Audio mixing interface and monitoring</li>
+              <li>Dedicated video editing workflow and workstation</li>
+            </ul>
+          </div>
+          <div class="col-md-6 mb-2">
+            <p><strong>Services:</strong></p>
+            <ul>
+              <li>Interview-style podcasts and thought-leadership content</li>
+              <li>Corporate communications and internal media</li>
+              <li>Political campaign discussions and policy conversations</li>
+              <li>Panel sessions and round-table content</li>
+              <li>Livestream events and hybrid broadcasts</li>
+            </ul>
+            <p>
+              This division is projected to become the <strong>highest-margin revenue unit</strong>, leveraging repeat bookings,
+              long-form content formats and high perceived value.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Revenue Model -->
+      <section>
+        <div class="section-title">04 · Revenue Model</div>
+        <h2 class="section-heading">Diversified and scalable income streams</h2>
+
+        <h3 class="mt-3 mb-1" style="font-size:16.5px;">4.1 Direct Service Revenue</h3>
+        <ul>
+          <li>Grooming sessions and image preparation</li>
+          <li>Studio hourly rentals for photography and video</li>
+          <li>Podcast and audio-visual session bookings</li>
+        </ul>
+
+        <h3 class="mt-3 mb-1" style="font-size:16.5px;">4.2 Bundled Creation Packages</h3>
+        <p><strong>“Complete Brand Session”</strong> (flagship package):</p>
+        <ul>
+          <li>Grooming &amp; styling</li>
+          <li>Professional photoshoot</li>
+          <li>Podcast or video recording session</li>
+          <li>Curated and edited deliverables for digital platforms</li>
+        </ul>
+        <p>
+          Bundling significantly increases profitability per client visit and simplifies the buying decision for busy professionals.
+        </p>
+
+        <h3 class="mt-3 mb-1" style="font-size:16.5px;">4.3 Membership Structure</h3>
+        <p><strong>Monthly plans for:</strong></p>
+        <ul>
+          <li>Corporate clients and executive teams</li>
+          <li>Public officials and political actors</li>
+          <li>Influencers and media personalities</li>
+          <li>Entrepreneurs and thought leaders</li>
+        </ul>
+        <p><strong>Membership benefits:</strong></p>
+        <ul>
+          <li>Priority booking windows</li>
+          <li>Discounted rates on bundled services</li>
+          <li>Reserved studio hours and content planning support</li>
+        </ul>
+
+        <h3 class="mt-3 mb-1" style="font-size:16.5px;">4.4 Studio Dry Hire</h3>
+        <p>Dry hire rental to:</p>
+        <ul>
+          <li>Production companies</li>
+          <li>Independent photographers and videographers</li>
+          <li>Media agencies and creative teams</li>
+        </ul>
+      </section>
+
+      <!-- 5. Financial Projections -->
+      <section>
+        <div class="section-title">05 · 3-Year Financial Projection Model</div>
+        <h2 class="section-heading">Conservative projections with strong upside</h2>
+        <p>
+          The projections below are conservative estimates based on moderate studio utilization rates and disciplined cost control.
+        </p>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-striped table-bordered align-middle">
+            <thead class="table-secondary">
+              <tr>
+                <th>Year</th>
+                <th>Focus</th>
+                <th>Annual Revenue</th>
+                <th>Operating Costs</th>
+                <th>Projected Net Profit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="fw-bold">Year 1</td>
+                <td>Stabilization phase</td>
+                <td>₦66,600,000</td>
+                <td>₦33,300,000</td>
+                <td class="text-success fw-bold">₦33,300,000</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">Year 2</td>
+                <td>Growth &amp; market penetration</td>
+                <td>₦83,250,000</td>
+                <td>₦37,500,000</td>
+                <td class="text-success fw-bold">₦45,750,000</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">Year 3</td>
+                <td>Expansion &amp; brand authority</td>
+                <td>₦104,000,000+</td>
+                <td>₦42,000,000</td>
+                <td class="text-success fw-bold">₦62,000,000+</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="muted" style="font-size:12.1px;">
+          Notes: Projections assume operational stability, strong brand positioning and disciplined reinvestment of early profits.
+          Valuation remains negotiable and can be refined in detailed financial modeling sessions.
+        </p>
+      </section>
+
+      <!-- 6. Capital Requirement -->
+      <section>
+        <div class="section-title">06 · Capital Requirement</div>
+        <h2 class="section-heading">Structured capital deployment for launch</h2>
+        <p>
+          <strong>Total Capital Requirement:</strong> ₦65,000,000<br />
+          <strong>Immediate Raise (Equity):</strong> ₦35,000,000
+        </p>
+        <p><strong>Allocation of funds:</strong></p>
+        <ul>
+          <li>40% – Equipment acquisition</li>
+          <li>30% – Renovation and soundproofing</li>
+          <li>20% – Marketing and launch operations</li>
+          <li>10% – Rent, licensing and contingencies</li>
+        </ul>
+      </section>
+
+      <!-- 7. Draft Investor Term Sheet -->
+      <section>
+        <div class="section-title">07 · Draft Investor Term Sheet (Simplified)</div>
+        <h2 class="section-heading">Headline investment terms (to be refined privately)</h2>
+
+        <div class="term-block mb-3">
+          <div class="term-row">
+            <span class="term-label">Company</span>
+            <span class="term-value">Boss Studios</span>
+          </div>
+          <div class="term-row">
+            <span class="term-label">Founder</span>
+            <span class="term-value">Chukwudi Wisdom</span>
+          </div>
+          <div class="term-row">
+            <span class="term-label">Location</span>
+            <span class="term-value">Port Harcourt, Rivers State</span>
+          </div>
+        </div>
+
+        <div class="term-block mb-3">
+          <div class="term-row">
+            <span class="term-label">Capital Raise</span>
+            <span class="term-value">₦35,000,000</span>
+          </div>
+          <div class="term-row">
+            <span class="term-label">Instrument</span>
+            <span class="term-value">Equity investment</span>
+          </div>
+          <div class="term-row">
+            <span class="term-label">ROI Offered</span>
+            <span class="term-value">Negotiable (private discussion)</span>
+          </div>
+        </div>
+
+        <p><strong>Use of funds:</strong></p>
+        <ul>
+          <li>Equipment procurement</li>
+          <li>Studio renovation and soundproofing</li>
+          <li>Marketing and brand launch activities</li>
+          <li>Operational setup and initial working capital</li>
+        </ul>
+        <p><strong>Governance:</strong> Founder-led management structure with clear reporting and periodic investor updates.</p>
+        <p><strong>Profit distribution:</strong> Profit-sharing structure to be agreed upon after Year 1 stabilization.</p>
+        <p><strong>Potential exit options:</strong></p>
+        <ul>
+          <li>Strategic acquisition by media / production group</li>
+          <li>Expansion partnership across other Nigerian cities</li>
+          <li>Structured dividend model for long-term income</li>
+        </ul>
+      </section>
+
+      <!-- 8. Studio Concept Visual References -->
+      <section>
+        <div class="section-title">08 · Studio Concept Visual References</div>
+        <h2 class="section-heading">Physical environment designed for confidence and content</h2>
+
+        <div class="row mb-2">
+          <div class="col-md-6 mb-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <a href="https://media.licdn.com/dms/image/v2/D5612AQEJqWzU_4aMrg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730757613198?e=2147483647&v=beta&t=SCNN5Bs3fvkQJDlOpEhs_3acgi_xuylZg9agBFOwUGo" target="_blank" style="text-decoration:none;">
+                <img
+                  src="https://media.licdn.com/dms/image/v2/D5612AQEJqWzU_4aMrg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730757613198?e=2147483647&v=beta&t=SCNN5Bs3fvkQJDlOpEhs_3acgi_xuylZg9agBFOwUGo"
+                  alt="Podcast Studio Concept"
+                  class="card-img-top"
+                  style="height:180px;object-fit:cover;background:#d1d5db;"
+                />
+              </a>
+              <div class="card-body p-2">
+                <div class="visual-title">Podcast Studio Concept</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <a href="media/podcast_pic2.jpg" target="_blank" style="text-decoration:none;">
+                <img
+                  src="media/podcast_pic2.jpg"
+                  alt="Photography Studio Concept"
+                  class="card-img-top"
+                  style="height:180px;object-fit:cover;background:#d1d5db;"
+                />
+              </a>
+              <div class="card-body p-2">
+                <div class="visual-title">Photography Studio Concept</div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <a href="media/podcast_pic4.jpg" target="_blank" style="text-decoration:none;">
+                <img
+                  src="media/podcast_pic4.jpg"
+                  alt="Grooming Suite Concept"
+                  class="card-img-top"
+                  style="height:180px;object-fit:cover;background:#d1d5db;"
+                />
+              </a>
+              <div class="card-body p-2">
+                <div class="visual-title"> Female Grooming Suite Concept</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <a href="media/podcast_pic3.jpg" target="_blank" style="text-decoration:none;">
+                <img
+                  src="media/podcast_pic3.jpg"
+                  alt="Grooming Suite Concept"
+                  class="card-img-top"
+                  style="height:180px;object-fit:cover;background:#d1d5db;"
+                />
+              </a>
+              <div class="card-body p-2">
+                <div class="visual-title">Male Grooming Suite Concept</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="muted" style="font-size:12.1px;">
+          Note: Final fit-out may vary; images serve as design direction for ambience, layout and brand positioning.
+        </p>
+      </section>
+
+      <!-- 9. Risk Mitigation -->
+      <section>
+        <div class="section-title">09 · Risk Mitigation</div>
+        <h2 class="section-heading">Structured downside protection for investors</h2>
+        <ul>
+          <li><strong>Tangible asset value:</strong> High-quality equipment maintains resale value, providing a hard-asset base.</li>
+          <li><strong>Diversified service model:</strong> Multiple revenue lines (grooming, photography, podcast, memberships, dry hire).</li>
+          <li><strong>Recurring membership strategy:</strong> Predictable baseline revenue from monthly retainers.</li>
+          <li><strong>Moderate fixed overhead:</strong> Disciplined operations and lean staffing in early phases.</li>
+          <li><strong>Growing demand for digital authority:</strong> Structural trend towards personal branding and content-led positioning.</li>
+        </ul>
+        <div class="highlight-box">
+          Boss Studios is designed not just as a studio, but as <strong>infrastructure</strong> for digital authority – providing recurring, high-value
+          services to a concentrated cluster of decision makers in Port Harcourt.
+        </div>
+      </section>
+
+      <!-- 10. Conclusion -->
+      <section>
+        <div class="section-title">10 · Conclusion</div>
+        <h2 class="section-heading">Positioned to become Port Harcourt’s leading content infrastructure hub</h2>
+        <p>
+          Boss Studios is positioned to become the leading integrated content infrastructure hub in Port Harcourt, anchored on:
+        </p>
+        <ul>
+          <li>Operational efficiency and coordinated service delivery</li>
+          <li>Vertical integration from grooming to final content output</li>
+          <li>Premium, authority-focused service design</li>
+          <li>Scalable, diversified revenue structure</li>
+        </ul>
+        <p>
+          This proposal is intended to communicate vision, strategy and operational clarity. Detailed valuation, governance structure
+          and financial modeling can be discussed privately with interested investors.
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer class="doc-footer mt-5">
+        <span>Boss Studios – Investor Briefing</span>
+        <span>Confidential · Not for public circulation</span>
+      </footer>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
